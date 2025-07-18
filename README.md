@@ -35,9 +35,49 @@ In e-commerce, product returns are costly. Predicting which orders are likely to
 
 ---
 
-##  How to Use
+<!-- PROJECT SHIELDS -->
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/status-production-green.svg" alt="Status"></a>
+  <a href="#"><img src="https://imgields.io/badge/python-3.8%2B-blue.svg" alt="Python Version"></a>
+  <a href="#license"><img src="https://imgields.io/badge/license-MIT-blue.svg" alt="License"></a>
+</p>
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/yourusername/return-risk-prediction.git
-   cd return-risk-prediction
+# Intelligent Return Risk Prediction System
+
+High-impact, scalable machine learning solution for forecasting product return likelihood in e-commerce. By combining **XGBoost**, **SMOTE**, and **threshold optimization**, this system delivers actionable insights to reduce operational costs and enhance customer satisfaction.
+
+---
+
+## 🚀 Features
+
+- **Imbalanced Data Handling**: SMOTE oversampling + `scale_pos_weight` ensure balanced learning.
+- **High-Performance Modeling**: XGBoost classifier with optimized parameters for structured data.
+- **Custom Threshold Tuning**: Maximize recall on return predictions to capture true positives.
+- **Modular Codebase**: Clear separation of data processing, modeling, and evaluation.
+- **Easy Integration**: Single script interface and exportable model for deployment.
+
+---
+
+## 🗂 Tech Stack
+
+- **Language**: Python 3.8+
+- **ML Frameworks**: XGBoost, scikit-learn, imbalanced-learn
+- **Visualization**: Matplotlib
+- **Data Handling**: pandas, NumPy
+
+---
+
+## 📊 Project Structure
+├── data/
+│ └── return_data.csv # Sample dataset
+├── src/
+│ ├── return_risk_prediction.py # Main script
+│ └── utils.py # Helper functions
+├── notebooks/ # EDA and experimentation
+├── requirements.txt
+└── README.md # Project overview
+
+##Acknowledgements
+
+XGBoost, scikit-learn, and imbalanced-learn communities
+Dataset contributors and e-commerce domain experts
