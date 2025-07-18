@@ -35,12 +35,6 @@ In e-commerce, product returns are costly. Predicting which orders are likely to
 
 ---
 
-<!-- PROJECT SHIELDS -->
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/status-production-green.svg" alt="Status"></a>
-  <a href="#"><img src="https://imgields.io/badge/python-3.8%2B-blue.svg" alt="Python Version"></a>
-  <a href="#license"><img src="https://imgields.io/badge/license-MIT-blue.svg" alt="License"></a>
-</p>
 
 # Intelligent Return Risk Prediction System
 
@@ -66,16 +60,6 @@ High-impact, scalable machine learning solution for forecasting product return l
 - **Data Handling**: pandas, NumPy
 
 ---
-
-##  Project Structure
-├── data/
-│ └── return_data.csv # Sample dataset
-├── src/
-│ ├── return_risk_prediction.py # Main script
-│ └── utils.py # Helper functions
-├── notebooks/ # EDA and experimentation
-├── requirements.txt
-└── README.md # Project overview
 
 ##  Acknowledgements
 
