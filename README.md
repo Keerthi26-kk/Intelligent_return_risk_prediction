@@ -25,7 +25,7 @@ In e-commerce, product returns are costly. Predicting which orders are likely to
 
 ---
 
-## ⚙ Methods Used
+##  Methods Used
 
 - **XGBoost Classifier** for robust and scalable classification
 - **Label Encoding** for categorical feature (`product_id`)
@@ -48,7 +48,7 @@ High-impact, scalable machine learning solution for forecasting product return l
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Imbalanced Data Handling**: SMOTE oversampling + `scale_pos_weight` ensure balanced learning.
 - **High-Performance Modeling**: XGBoost classifier with optimized parameters for structured data.
@@ -58,7 +58,7 @@ High-impact, scalable machine learning solution for forecasting product return l
 
 ---
 
-## 🗂 Tech Stack
+##  Tech Stack
 
 - **Language**: Python 3.8+
 - **ML Frameworks**: XGBoost, scikit-learn, imbalanced-learn
@@ -67,7 +67,7 @@ High-impact, scalable machine learning solution for forecasting product return l
 
 ---
 
-## 📊 Project Structure
+##  Project Structure
 ├── data/
 │ └── return_data.csv # Sample dataset
 ├── src/
@@ -77,7 +77,7 @@ High-impact, scalable machine learning solution for forecasting product return l
 ├── requirements.txt
 └── README.md # Project overview
 
-##Acknowledgements
+##  Acknowledgements
 
 XGBoost, scikit-learn, and imbalanced-learn communities
 Dataset contributors and e-commerce domain experts
